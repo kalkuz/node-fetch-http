@@ -1,7 +1,7 @@
 {
-  "name": "fetch-http",
+  "name": "node-fetch-http",
   "version": "0.1.0",
-  "description": "A library that provides shortcuts for http requests",
+  "description": "A library that provides shortcuts for http requests for nodejs",
   "main": "index.js",
   "author": "Oğuzhan Kalkuz",
   "license": "MIT",
@@ -10,5 +10,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
